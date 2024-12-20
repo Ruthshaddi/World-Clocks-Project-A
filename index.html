@@ -6,20 +6,22 @@
     <link rel="stylesheet" href="style.css">
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
     ></script>
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js "></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js "></script>
     <title>WORLD CLOCKS PROJECT</title>
 </head>
 <body>
     <div class="container">
      <h1>World Clocks</h1>
-      <select>
+
+      <select id="city">
         <option value=""> Select a city...</option>
-      <option value=""> London </option>
-    <option value=""> New york</option>
-  <option value=""> Nigeria</option>
+      <option value="Europe/London">London </option>
+    <option value="America/New_york">New_york</option>
+  <option value="Africa/Nigeria">Nigeria</option>
 </select>
 
-   <div class="city"  id="iceland">
+<div id="cities">
+  <div class="city"  id="iceland">
     <div>
      <h2>Iceland 🇮🇸</h2>
       <div class="date"></div>
@@ -34,10 +36,11 @@
      </div>
     <div class="time"></div>
    </div>
-
+  </div>
  </div>
+   
 
-  </body>
+
 <footer>
     This project was coded with ❤️ <strong>by Ruth Odusanya</strong> and is
      <a href="https://github.com/Ruthshaddi/World-Clocks-Project-A "
@@ -45,4 +48,5 @@
         open sourced on GitHub</a>
 </footer>
   <script src="index.js"></script>
+</body>
 </html>
